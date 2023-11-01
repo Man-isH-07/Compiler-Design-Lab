@@ -95,3 +95,17 @@ int main()
 	cout<<"Result is:"<<ans;
 	return 0;
 }
+
+
+
+
+
+Output:
+
+Case 1:
+Grammar:
+E->E+T|E-T|T
+T->T*F|T/F|F
+F->(E)|0|1|.....|9
+Enter The Expression:2+4
+Result is:6
